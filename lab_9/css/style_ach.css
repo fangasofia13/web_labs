@@ -1,0 +1,68 @@
+html, body {
+  height: 100%;
+  margin: 0 auto;
+}
+
+body {
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.container h1 {
+  text-align: center;
+}
+.container p {
+  text-align: center;
+}
+
+.welcome {
+  margin: 150px 30px 150px 30px;
+  text-align: center;
+  color: white;
+}
+.welcome .welcome-head {
+  margin: 0px 0px 150px 0px;
+}
+.welcome .welcome-head h1 {
+  margin: 70px 0px 70px 0px;
+}
+.welcome .welcome-head h3 {
+  margin: 30px 0px 30px 0px;
+}
+.welcome p {
+  margin: 20px 200px 20px 200px;
+}
+
+#one {
+  background-color: #212529;
+}
+
+.info {
+  margin: 150px 30px 150px 30px;
+}
+
+.img img {
+  width: auto;
+}
+
+.footer {
+  background-color: #212529;
+  flex-shrink: 0;
+}
+.footer .footer_inner {
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+.footer .footer_inner .footer_link {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0px 50px 0px 0px;
+  text-decoration: none;
+  color: white;
+  transition: color 0.25s linear;
+}
+.footer .footer_inner .footer_link:hover {
+  color: black;
+}

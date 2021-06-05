@@ -1,0 +1,37 @@
+html, body {
+    height: 100%;
+    
+}
+
+div{
+    margin: auto;
+    width: 1000px;
+}
+
+.poem{
+    text-align: center;
+}
+
+body{
+    margin: 0;
+    background: linear-gradient(45deg, white, rgb(6, 117, 62));
+    background-size: 150% 150%;
+    animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient{
+    0%{
+        background-position: 0 50%;
+    }
+    50%{
+        background-position: 50% 0;
+    }
+    100%{
+        background-position: 0 50%;
+    }
+}
+
+.img{
+    border: greenyellow;
+    border-radius: 3px;
+}

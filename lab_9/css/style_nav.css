@@ -1,0 +1,56 @@
+.botton1{
+
+}
+
+.botton2{
+
+}
+
+.ligth_mod{
+    float: right;
+    padding: 10px 10px 0px 0px ;
+}
+
+.content{
+    flex: 1 0 auto;
+}
+
+.cont1{
+    color: black;
+}
+
+/* Nav */
+.nav{
+    text-transform: uppercase;
+}
+
+.nav_link{
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    transition: color .25s linear;
+}
+
+
+.nav_link:hover{
+    color: coral;
+}
+
+/* Header */
+.header{
+    height: 100px;
+    padding: 20px;
+    
+}
+
+.header_logo{
+    text-transform: uppercase;
+}
+
+.header_inner{
+    display: flex;
+    justify-content: space-between;
+    color: black;
+}
