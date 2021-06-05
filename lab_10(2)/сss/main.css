@@ -1,0 +1,48 @@
+html,
+body {
+    height: 100%;
+}
+
+.start_btn {}
+
+.btn {
+    width: 100px;
+    height: 50px;
+}
+
+.cirkle {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    position: relative;
+    background-color: yellow;
+    left: 100%;
+    top: 100%;
+    z-index: 5;
+}
+
+.discount {
+    margin: 30px;
+}
+
+.discount_btn {
+    text-transform: uppercase;
+}
+
+.discount_list {
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 50px 50px 0px;
+}
+
+.price {
+    width: 100px;
+    height: 30px;
+    border-radius: 90%;
+    background: #000;
+    color: white;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
