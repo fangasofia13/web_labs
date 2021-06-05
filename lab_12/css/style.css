@@ -1,0 +1,18 @@
+button, label, input{
+    margin: 0px 0px 20px 20px;
+}
+
+.green, .red{
+    margin: 20px;
+    width: 200px;
+    padding: 10px;
+    text-align: center;
+}
+
+.green{
+    background: lightskyblue;
+}
+
+.red{
+    background-color: pink;
+}
